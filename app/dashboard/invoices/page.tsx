@@ -1,9 +1,11 @@
 "use client"
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
-export default function Page(){
+// import { fetchRevenue } from "@/app/lib/data";
+export default async function Page(){
   const currentPathName = usePathname()
-
+  // const revenue = await fetchRevenue()
+  // console.log(revenue);
   useEffect(()=>{
     console.log(currentPathName); ///dashboard/invoices
   }, [])
