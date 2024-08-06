@@ -48,7 +48,7 @@ export default function Page() {
             alt='hero Image'
           ></Image>
         </div >
-        <div className={styles.shape}></div>
+        {/* <div className={styles.shape}></div> */}
       </div>
     </main>
   );

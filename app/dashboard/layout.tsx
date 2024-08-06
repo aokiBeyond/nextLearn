@@ -1,13 +1,8 @@
 import SideNav from "../ui/dashboard/sidenav";
 // import { usePathname } from "next/navigation";
 // import { useEffect } from "react";
+export const experimental_ppr = true
 export default function Layout({children} : {children : React.ReactNode}){
-  // const pathName = usePathname()
-
-  // useEffect(() =>{
-  //   console.log(pathName);
-  // }, [])
-
   return (
     <div className="flex h-screen flex-col lg:flex-row lg:overflow-hidden">
       <div className="w-full flex-none lg:w-64">
